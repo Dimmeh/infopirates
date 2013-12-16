@@ -58,6 +58,7 @@ if (localStorage.getItem("puzzlecode1") !== null)
 {
 	$('.piece:first').addClass('piece-1').animate({'opacity':1}, 1000);
 	$('.panel-heading:first').css('background', '#97E078');
+    $('.panel-heading:first .done').html('<img src="img/quest_closed.png">');
 } 
 
 if (localStorage.getItem("puzzlecode2") !== null)
