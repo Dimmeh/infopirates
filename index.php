@@ -2,7 +2,7 @@
 
 session_start();
 
-require 'logout.php';
+ $ipadress = $_SERVER['REMOTE_ADDR'];
 
 if (!isset($_SESSION['name'])) {
   header('location: register.php');

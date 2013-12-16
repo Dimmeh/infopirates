@@ -4,9 +4,10 @@
 }
 
 body {
-    background-size: cover;
-    color: white;
+    
+  color: white;
   background-image:url(img/background.jpg);
+  background-position: -700px 0px;
 }
 
 .panel {

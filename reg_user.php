@@ -21,8 +21,7 @@ if ($_POST['name'] != '' && $_POST['email'] != '')
 
 
 
-	$query = mysqli_query($con, "INSERT INTO tbl_users (username, email) VALUES ('$name', '$email')") or die (mysqli_errno($con));
-
+$query = mysqli_query($con, "INSERT INTO tbl_users (username, email, user_ip) VALUES ('$name', '$email', '$user_ip')") or die (mysqli_errno($con));
 	header('location: index.php');
 
 } 

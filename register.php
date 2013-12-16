@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+$ipadress = $_SERVER['REMOTE_ADDR'];
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -34,17 +36,21 @@ session_start();
           </p>
           <div class="var-text-succes"> <!--div om text variabel te maken adhv keuzes speler -->
           <div class="alert alert-success"><p>Mooi.... geen weg meer terug nu. Geef hieronder je username en email op en je kunt aan de slag met onze quests!</p></div>
-          <form class="form-horizontal" role="form" action="reg_user.php" method="POST">
+            <form class="form-horizontal" role="form" action="reg_user.php" method="POST">
               <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="inputEmail3" name="name" placeholder="Username" required>
+                  <input type="text" id="username" class="form-control" id="inputEmail3" name="name" pattern=".{5,100}" title="Uw Username is te                         kort" placeholder="Username" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputPassword3" name="email" placeholder="Email-adres" required>
+                  <input type="email" class="form-control" id="inputPassword3" name="email" pattern=".{15,100}" 
+                      placeholder="Email-adres" required>
+                </div>
+                <div class="hiddenform">
+                    <input type="hidden" id="ip" name="user_ip"  value="<?php echo $ipadress; ?>"required>
                 </div>
               </div>
               <div class="form-group">
