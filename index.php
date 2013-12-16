@@ -64,13 +64,18 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  <strong> Quest:</strong> Zoektocht naar Mediadevelopment.
+                  <strong> Quest:</strong> Your First Day as a Pirate.
                 </a>
               </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>Als je echt wilt weten waar </p>
+                <p><b>De kapitein spreekt:</b> " Aarrghh... Welkom aan boord piraat, 
+                voor jou zoektocht naar de schat is je eerste opdracht de qr-reader 
+                installeren op je smartphone. Na de installatie scan je de qr-code op de balie."</p>
+<hr class="quest">
+<p>Beloning:
+De eerste puzzelstuk.  </p>
               </div>
             </div>
           </div>
@@ -78,13 +83,17 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  <strong> Quest:</strong> Get to tha Choppa!.
+                  <strong> Quest:</strong> Land HO!
                 </a>
               </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
               <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <p><b>De kapitein spreekt:</b> "Ahooy!!!!! Land in zicht aaaarrghhh... De kapituur stuurt jou naar buiten bij de hoofdingang om de drone naar het land te sturen
+                en zoek naar het volgende puzzel stuk. Dit zijn de co&#246;rdinatie N 51.606411, W 4.77858 , marrrrr 
+                pas op voor het beest, de kraken!"</p>                        
+                <hr class="quest">
+                <p>Beloning: De tweede puzzelstuk</p>
               </div>
             </div>
           </div>
@@ -92,13 +101,16 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                  <strong> Quest:</strong> lorem ipsum.
+                  <strong> Quest:</strong> Legend of Hanoi.
                 </a>
               </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
               <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+               <p><b>De kapitein spreekt:</b> "Aaarrghh... Voor deze quest moet je het raadsel van de Torens van Hanoi. Ga naar het lokaal 330 op de derde verdieping
+               en ga de game spelen bij de Applicatieontwikkelaar." </p>
+               <hr class="quest">
+                <p>Beloning: De derde puzzelstuk</p> 
               </div> 
             </div>
           </div>
@@ -106,13 +118,18 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                  <strong> Quest:</strong> Zoektocht naar Mediadevelopment.
+                  <strong> Quest:</strong> The Gathering.
                 </a>
               </h4>
             </div>
             <div id="collapseFour" class="panel-collapse collapse">
               <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <p><b>De kapitein spreekt:</b> "Landrotten! In mijn hand heb ik een brief in een flesje, het is
+                van de Mediadevelopers en zij zeggen: Ahoy Zeeschuimers! Hierbij nodigen wij jullie als 
+                piraten onder elkaar om ons zelfgemaakt chatapp te tonen. Weg met de brief in de fles, met deze chatapp
+                is de must have voor ieder piraat! Kom naar lokaal 328 en ontdek het zelf!"</p>
+                <hr class="quest">
+                <p>Beloning: De vierde puzzelstuk</p>
               </div>
             </div>
           </div>
@@ -120,27 +137,38 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                  <strong> Quest:</strong> Get to tha Choppa!.
+                  <strong> Quest:</strong> The Quest.
                 </a>
               </h4>
             </div>
             <div id="collapseFive" class="panel-collapse collapse">
               <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
+                <p><b>De Kapitein spreekt:</b> "SCHAT, schat, schat. Ik krijg niet genoeg van schatten. 
+                Ik honger meer naar schatten en daarom stuur ik jou om de schat te zoeken. Alleen degene
+                met een qr-reader zal deze taak volbrengen! Ik geef jou de schatkaart en volg de pijlen
+                naar de schat. De schat is gemarkeert met de rode kruis! "</p>  
+                <p><img width='369px' src="img/schatkaart.jpg"></p>
+                <hr class="quest">
+                <p>Beloning: De vijfde puzzelstuk</p>
+              </div>                
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                  <strong> Quest:</strong> lorem ipsum.
+                  <strong> Quest:</strong> Wanted: Dead or Alive.
                 </a>
               </h4>
             </div>
             <div id="collapseSix" class="panel-collapse collapse">
               <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+               <p><b>De kapitein spreekt:</b>"GEZOCHT! Ik zoek naar een landrot die mijn schat heeft gestolen en enteren op mijn schip! 
+               Zoek naar die landrot, levend of dood! Hij zit in dit gebouw bij het Radius College, maar hij verplaatst keer op keer. Hij is
+               voor het laatst gezien op de 3de verdieping. Als je hem ziet, loop je d'r na toe, tik je hem aan en roep Gezocht: Levend of dood!"</p> 
+               <p><img src="img/piraat.jpg"></p> 
+              <hr class="quest">
+                <p>Beloning: De zesde puzzelstuk</p>
               </div> 
             </div>
           </div>
