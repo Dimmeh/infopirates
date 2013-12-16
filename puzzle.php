@@ -51,7 +51,7 @@ session_start();
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <img src="img/box-closed.png" alt="" id="puzzle-piece">
               <h4 class="modal-title" id="myModalLabel">Proficiat!</h4>
             </div>
             <div class="modal-body">
@@ -71,7 +71,7 @@ session_start();
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <img src="img/box-closed.png" alt="" id="puzzle-piece">
                 <h4 class="modal-title" id="myModalLabel">Welkom, infohunter...</h4>
               </div>
               <div class="modal-body">

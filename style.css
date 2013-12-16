@@ -1,5 +1,12 @@
+@font-face {
+    font-family: pirate;
+    src: url('fonts/appleton.otf');
+}
+
 body {
-  background: #EAEAEA;
+    background-size: cover;
+    color: white;
+  background-image:url(img/background.jpg);
 }
 
 .panel {
@@ -22,6 +29,12 @@ ul.nav {
 margin-top: 20px;
 }
 
+#tabs {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .logout {
   float: right;
 }
@@ -33,12 +46,12 @@ a:hover, a:link {
 
 .page-header {
   text-align: center;
-  background: url('http://www.dc-pub.com/wp-content/uploads/2013/07/pirate-images.jpg') no-repeat center;
   color: white;
-  background-size: cover;
 }
 
 .page-header h1, .page-header h2 {
+    font-size: 40px;
+  font-family: appleton;
   background: rgba(20,20,20,0.5);
 }
 
@@ -81,4 +94,27 @@ a:hover, a:link {
 
 .puzzle-container {
   margin-top: 30px;
+}
+#puzzle-piece {
+    width: 50px;
+    height: 75px;
+}
+.panel-heading {
+    background-color: rgba(0,0,0,0.5);
+}
+.panel-heading {
+    padding: 0;
+
+}
+.text-reg h4{
+    font-size: 30px;
+    font-family: pirate;
+}
+#marker {
+    width: 40px;
+    height: 40px;
+}
+.panel-title img{
+    width: 40px;
+    height: 40px;
 }

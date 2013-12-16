@@ -64,7 +64,7 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  <strong> Quest:</strong> Your First Day as a Pirate.
+                  <img src="img/quest_open.png" alt="" id="marker"><strong> Quest:</strong> Your First Day as a Pirate.
                 </a>
               </h4>
             </div>
@@ -83,7 +83,7 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  <strong> Quest:</strong> Land HO!
+                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> Land HO!
                 </a>
               </h4>
             </div>
@@ -101,7 +101,7 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                  <strong> Quest:</strong> Legend of Hanoi.
+                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> Legend of Hanoi.
                 </a>
               </h4>
             </div>
@@ -118,7 +118,7 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                  <strong> Quest:</strong> The Gathering.
+                <img src="img/quest_open.png" alt="" id="marker">  <strong> Quest:</strong> The Gathering.
                 </a>
               </h4>
             </div>
@@ -137,7 +137,7 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                  <strong> Quest:</strong> The Quest.
+                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> The Quest.
                 </a>
               </h4>
             </div>
@@ -157,7 +157,7 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                  <strong> Quest:</strong> Wanted: Dead or Alive.
+                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> Wanted: Dead or Alive.
                 </a>
               </h4>
             </div>
