@@ -161,6 +161,19 @@ $('.logout').click(function(){
 	}
 });
 
+//  check if is alphanumeric 
+function isAlphanumeric(){
+	var alphaExp = /^[0-9a-zA-Z]+$/;
+	if(document.getElementById('username').value.match(alphaExp)){
+		return true;
+	}else{
+			console.log('testfalse');
+		alert('Uw gebruikersnaam mag alleen uit letters en cijfers bestaan');
+		document.getElementById('username').focus();
+		return false;
+	}
+}
+
 
 
 

@@ -50,7 +50,7 @@ $ipadress = $_SERVER['REMOTE_ADDR'];
           </p>
           <div class="var-text-succes"> <!--div om text variabel te maken adhv keuzes speler -->
           <div class="alert alert-success"><p>Mooi.... geen weg meer terug nu. Geef hieronder je username en email op en je kunt aan de slag met onze quests!</p></div>
-            <form class="form-horizontal" role="form" action="reg_user.php" method="POST">
+            <form onsubmit="isAlphanumeric()" class="form-horizontal" role="form" action="reg_user.php" method="POST">
               <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
                 <div class="col-sm-10">
