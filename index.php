@@ -48,7 +48,7 @@ else
     <div class="container">
       <div class="row">
         <div class="page-header">
-          <h1>Info-hunters </h1>
+          <h1>Infohunters </h1>
           <h2>vind ze allemaal...</h2>
          
         </div>
