@@ -5,13 +5,17 @@
 
 body {
     
-  color: white;
+  color: black;
   background-image:url(img/background.jpg);
   background-position: -700px 0px;
 }
 
 .panel {
   background: #EAEAEA;
+}
+
+.nav-tabs li a {
+  background: rgba(255,255,255,0.7);
 }
 
 .text-reg {
@@ -105,8 +109,12 @@ a:hover, a:link {
 }
 .panel-heading {
     padding: 0;
-
 }
+
+.text-reg {
+  background: rgba(255,255,255,0.7);
+}
+
 .text-reg h4{
     font-size: 30px;
     font-family: pirate;
@@ -115,7 +123,21 @@ a:hover, a:link {
     width: 40px;
     height: 40px;
 }
-.panel-title img{
-    width: 40px;
-    height: 40px;
+
+.panel-title {
+  overflow: hidden;
+}
+
+.panel-title a {
+  padding-left: 10px;
+  vertical-align: bottom;
+  line-height: 40px;
+}
+
+.done img {
+  width: 30px;
+  height: 30px;
+  height: 100%;
+  display: inline-block;
+  float: left;
 }

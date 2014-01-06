@@ -22,6 +22,21 @@ else
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+<!-- fix windowsmobile8 / bootstrap quirk -->
+    <script type="text/javascript"> 
+<!-- 
+(function() { 
+    if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) { 
+        var msViewportStyle = document.createElement("style"); 
+        msViewportStyle.appendChild( 
+            document.createTextNode("@-ms-viewport{width:auto!important}") 
+        ); 
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle); 
+    } 
+})(); 
+//--> 
+</script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,12 +55,9 @@ else
       </div>
 
       <div class="row">
-      <div class="col-xs-6">
+      <div class="col-xs-12">
        Welkom, <span class="user"> <b><?php echo $_SESSION['name'];?></b></span>. Puzzelstukken behaald: <span class="badge counter"></span>
       </div>
-      <div class="col-xs-6">
-        <button type="button" class="btn btn-default logout">Uitloggen</button>
-      </div>  
       </div>
 
       <div class="row">
@@ -64,18 +76,18 @@ else
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  <img src="img/quest_open.png" alt="" id="marker"><strong> Quest:</strong> Your First Day as a Pirate.
+                  <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span><strong> Quest:</strong> Your First Day as a Pirate.
                 </a>
               </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse">
               <div class="panel-body">
                 <p><b>De kapitein spreekt:</b> " Aarrghh... Welkom aan boord piraat, 
-                voor jou zoektocht naar de schat is je eerste opdracht de qr-reader 
+                voor jouw zoektocht naar de schat is je eerste opdracht de qr-reader 
                 installeren op je smartphone. Na de installatie scan je de qr-code op de balie."</p>
 <hr class="quest">
 <p>Beloning:
-De eerste puzzelstuk.  </p>
+Het eerste puzzelstuk.  </p>
               </div>
             </div>
           </div>
@@ -83,17 +95,17 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> Land HO!
+                 <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span> <strong> Quest:</strong> Land HO!
                 </a>
               </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
               <div class="panel-body">
                 <p><b>De kapitein spreekt:</b> "Ahooy!!!!! Land in zicht aaaarrghhh... De kapituur stuurt jou naar buiten bij de hoofdingang om de drone naar het land te sturen
-                en zoek naar het volgende puzzel stuk. Dit zijn de co&#246;rdinatie N 51.606411, W 4.77858 , marrrrr 
+                en zoek naar het volgende puzzel stuk. Dit zijn de co&#246;rdinatie N 51.606411, W 4.77858 , maarrrrr 
                 pas op voor het beest, de kraken!"</p>                        
                 <hr class="quest">
-                <p>Beloning: De tweede puzzelstuk</p>
+                <p>Beloning: Het tweede puzzelstuk</p>
               </div>
             </div>
           </div>
@@ -101,16 +113,16 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> Legend of Hanoi.
+                 <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span> <strong> Quest:</strong> Legend of Hanoi.
                 </a>
               </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
               <div class="panel-body">
-               <p><b>De kapitein spreekt:</b> "Aaarrghh... Voor deze quest moet je het raadsel van de Torens van Hanoi. Ga naar het lokaal 330 op de derde verdieping
+               <p><b>De kapitein spreekt:</b> "Aaarrghh... Voor deze quest moet je het raadsel van de Torens van Hanoi oplossen. Ga naar het lokaal 330 op de derde verdieping
                en ga de game spelen bij de Applicatieontwikkelaar." </p>
                <hr class="quest">
-                <p>Beloning: De derde puzzelstuk</p> 
+                <p>Beloning: Het derde puzzelstuk</p> 
               </div> 
             </div>
           </div>
@@ -118,7 +130,7 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                <img src="img/quest_open.png" alt="" id="marker">  <strong> Quest:</strong> The Gathering.
+                <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span>  <strong> Quest:</strong> The Gathering.
                 </a>
               </h4>
             </div>
@@ -129,7 +141,7 @@ De eerste puzzelstuk.  </p>
                 piraten onder elkaar om ons zelfgemaakt chatapp te tonen. Weg met de brief in de fles, met deze chatapp
                 is de must have voor ieder piraat! Kom naar lokaal 328 en ontdek het zelf!"</p>
                 <hr class="quest">
-                <p>Beloning: De vierde puzzelstuk</p>
+                <p>Beloning: Het vierde puzzelstuk</p>
               </div>
             </div>
           </div>
@@ -137,19 +149,19 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> The Quest.
+                 <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span> <strong> Quest:</strong> The Quest.
                 </a>
               </h4>
             </div>
             <div id="collapseFive" class="panel-collapse collapse">
               <div class="panel-body">
                 <p><b>De Kapitein spreekt:</b> "SCHAT, schat, schat. Ik krijg niet genoeg van schatten. 
-                Ik honger meer naar schatten en daarom stuur ik jou om de schat te zoeken. Alleen degene
+                Ik honger naar meer schatten en daarom stuur ik jou om de schat te zoeken. Alleen degene
                 met een qr-reader zal deze taak volbrengen! Ik geef jou de schatkaart en volg de pijlen
-                naar de schat. De schat is gemarkeert met de rode kruis! "</p>  
+                naar de schat. De schat is gemarkeerd met de rode kruis! "</p>  
                 <p><img width='369px' src="img/schatkaart.jpg"></p>
                 <hr class="quest">
-                <p>Beloning: De vijfde puzzelstuk</p>
+                <p>Beloning: Het vijfde puzzelstuk</p>
               </div>                
             </div>
           </div>
@@ -157,18 +169,18 @@ De eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                 <img src="img/quest_open.png" alt="" id="marker"> <strong> Quest:</strong> Wanted: Dead or Alive.
+                 <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span> <strong> Quest:</strong> Wanted: Dead or Alive.
                 </a>
               </h4>
             </div>
             <div id="collapseSix" class="panel-collapse collapse">
               <div class="panel-body">
-               <p><b>De kapitein spreekt:</b>"GEZOCHT! Ik zoek naar een landrot die mijn schat heeft gestolen en enteren op mijn schip! 
+               <p><b>De kapitein spreekt:</b>"GEZOCHT! Ik zoek naar een landrot die is ge-entert op mijn schip en mijn schat heeft gestolen! 
                Zoek naar die landrot, levend of dood! Hij zit in dit gebouw bij het Radius College, maar hij verplaatst keer op keer. Hij is
-               voor het laatst gezien op de 3de verdieping. Als je hem ziet, loop je d'r na toe, tik je hem aan en roep Gezocht: Levend of dood!"</p> 
+               voor het laatst gezien op de 3de verdieping. Als je hem ziet, loop je er naar toe, tik je hem aan en roep Gezocht: Levend of dood!"</p> 
                <p><img src="img/piraat.jpg"></p> 
               <hr class="quest">
-                <p>Beloning: De zesde puzzelstuk</p>
+                <p>Beloning: Het zesde puzzelstuk</p>
               </div> 
             </div>
           </div>

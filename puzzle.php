@@ -12,6 +12,21 @@ session_start();
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+<!-- windowsmobile 8 / bootstrap fix -->
+<script type="text/javascript"> 
+<!-- 
+(function() { 
+    if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) { 
+        var msViewportStyle = document.createElement("style"); 
+        msViewportStyle.appendChild( 
+            document.createTextNode("@-ms-viewport{width:auto!important}") 
+        ); 
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle); 
+    } 
+})(); 
+//--> 
+</script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
