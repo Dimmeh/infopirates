@@ -31,65 +31,41 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Startpagina</a></li>
+              <li><a href="index.html">Startpagina</a></li>
               <li><a href="informatie.html">Informatie</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li class="active"><a href="contact.php">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-    
-    <div class="banner">
-        <div class="container">
-            <img src="images/logo-white.png" class="pull-right banner-logo" alt="">
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="alert alert-info" style="margin-top:20px;">
-            <a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>
-            <b>Let op:</b> Voor het meespelen is een smartphone vereist. U kunt gebruik maken van de gratis wi-fi.
-        </div>
-    </div>
+    <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.nl/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Radius+College,+Terheijdenseweg,+Breda&amp;aq=0&amp;oq=Radius+college&amp;sll=51.992171,4.494086&amp;sspn=1.219405,2.90863&amp;ie=UTF8&amp;hq=Radius+College,&amp;hnear=Terheijdenseweg,+Breda&amp;t=m&amp;ll=51.607304,4.777057&amp;spn=0.006663,0.002124&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
     
     <div class="container content">
+        <h2>Contact opnemen</h2>
+        <p>Heeft u een vraag of komt u ergens niet helemaal uit? Aarzel dan niet en neem contact met ons op. Wij zullen proberen u zo spoedig mogelijk van dienst te zijn.</p>
+        <br />
+        <form action="" role="form" method="post">
         <div class="row">
             <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="row">
-                    <div class="col col-lg-1 col-md-2 col-sm-2 col-xs-2"><span class="glyphicon glyphicon-camera icon"></span></div>
-                    <div class="col col-lg-11 col-md-10 col-sm-10 col-xs-10"><h3>Scan QR codes</h3></div>
-                </div>
-                <p>Je kunt de opdrachten in het spel behalen door QR codes te scannen. Op de open dagen vind je op deze pagina, en in het gebouw van het Radius College de codes waar mee je kunt beginnen. Voor het scannen van QR codes is een app vereist. Je vind <a href="#" data-toggle="modal" data-target="#apps">hier</a> welke apps.</p>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Uw naam..">
             </div>
             
             <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="row">
-                    <div class="col col-lg-1 col-md-2 col-sm-2 col-xs-2"><span class="glyphicon glyphicon-comment icon"></span></div>
-                    <div class="col col-lg-11 col-md-10 col-sm-10 col-xs-10"><h3>Chat met andere</h3></div>
-                </div>
-                <p>Door de ingebouwde chatfunctionaliteit heb je de mogelijkheid om hulp te vragen aan andere, je vind hier ook studenten die je kunnen helpen!</p> <p><b>Let op: De chat wordt live weergegeven in het gebouw.</b></p>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Uw e-mail adres..">
             </div>
             
             <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="row">
-                    <div class="col col-lg-1 col-md-2 col-sm-2 col-xs-2"><span class="glyphicon glyphicon-eye-open icon"></span></div>
-                    <div class="col col-lg-11 col-md-10 col-sm-10 col-xs-10"><h3>Kijk goed rond</h3></div>
-                </div>
-                <p>Om verder in het spel te komen zal je dus goed rond moeten kijken! Maar het is het waard, want je kunt er een vette prijzen mee winnen!</p>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Onderwerp..">
             </div>
         </div>
+        
+        <textarea name="" style="margin-top:20px;margin-bottom:20px;" id="" cols="30" rows="10" class="form-control" placeholder="Uw bericht.."></textarea>
+        
+        <button type="submit" class="btn btn-primary">Verzenden</button> <button type="cancel" class="btn btn-default">Annuleren</button>
         <hr>
+        </form>
     </div>
-    
-    
-    <div class="container dates">
-        <div class="glyph">
-            <span class="glyphicon glyphicon-calendar icon"></span>
-        </div>
-        <h3>17 & 18 Januari</h3>
-        <p>De Open Dagen van het Radius College vinden plaats op 17 en 18 januari 2014. Op vrijdag 17 januari is het gebouw geopend vanaf 17:00 tot 12:00 uur en op zaterdag 18 januari is het gebouw geopend van 10:00 tot 14:00 uur.</p>
-        <hr>
-    </div>
+
     
     <div class="container">
         <div class="row">
