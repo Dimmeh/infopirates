@@ -82,7 +82,7 @@ else
             </div>
             <div id="collapseOne" class="panel-collapse collapse">
               <div class="panel-body">
-                <p><b>De kapitein spreekt:</b> " Aarrghh... Welkom aan boord piraat, 
+                <p><b>De kapitein spreekt niet:</b> " Aarrghh... Welkom aan boord piraat, 
                 voor jouw zoektocht naar de schat is je eerste opdracht de qr-reader 
                 installeren op je smartphone. Na de installatie scan je de qr-code op de balie."</p>
 <hr class="quest">
