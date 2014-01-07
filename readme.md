@@ -15,4 +15,8 @@ instructies:
 -----------------------------------
 2 import de sql file die te vinden is onder 'database' in deze repo.
 -----------------------------------
-3 ready to go!
+3 de game zelf is te starten via game.infopirates.nl
+-----------------------------------
+4 pas de connect.inc.php aan op je eigen db/mysql gegevens
+
+
