@@ -1,10 +1,10 @@
 <?php
 
 $host = 'localhost';
-$user = 'pirate_main';
-$pass = 'SN12pOM6';
+$user = 'root';
+$pass = '1234';
 
-$db = 'pirate_main';
+$db = 'infopirates';
 
 $con = mysqli_connect($host, $user, $pass, $db);
 

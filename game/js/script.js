@@ -173,6 +173,11 @@ function isAlphanumeric(){
 		return false;
 	}
 }
+// same height/width for puzzle pieces
+var cw = $('.piece').width();
+
+$('.piece').css(('height',cw+'%'));
+
 
 
 

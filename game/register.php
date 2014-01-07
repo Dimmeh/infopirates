@@ -50,11 +50,11 @@ $ipadress = $_SERVER['REMOTE_ADDR'];
           </p>
           <div class="var-text-succes"> <!--div om text variabel te maken adhv keuzes speler -->
           <div class="alert alert-success"><p>Mooi.... geen weg meer terug nu. Geef hieronder je username en email op en je kunt aan de slag met onze quests!</p></div>
-            <form onsubmit="isAlphanumeric()" class="form-horizontal" role="form" action="reg_user.php" method="POST">
+            <form onsubmit="return isAlphanumeric()" class="form-horizontal" role="form" action="reg_user.php" method="POST">
               <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
                 <div class="col-sm-10">
-                  <input type="text" id="username" class="form-control" id="inputEmail3" name="name" pattern=".{5,100}" title="Uw Username is te                         kort" placeholder="Username" required>
+                  <input type="text" id="username" class="form-control" id="inputEmail3" name="name" pattern=".{2,100}" title="gebruikersnaam mag niet minder dan 2 karakters bevatten" placeholder="Username" required>
                 </div>
               </div>
               <div class="form-group">
@@ -69,7 +69,7 @@ $ipadress = $_SERVER['REMOTE_ADDR'];
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default" name="submit">Wordt InfoPirate!</button>
+                  <button type="submit" class="btn btn-default" id="submit" name="submit">Wordt InfoPirate!</button>
                 </div>
               </div>
           </form>
