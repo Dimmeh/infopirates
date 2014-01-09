@@ -10,6 +10,7 @@ Made by Radius College Mediadevelopment MED2A
 'Infopirates' is een quest based QR code game die gebruikt wordt op de open dag om bezoekers kennis te laten maken over de opleiding Mediadevelopment. 
 ---------------------------------
 instructies:
+<<<<<<< HEAD
 ---------------------------------
 1 maak db aan 'infopirates'
 -----------------------------------
@@ -18,5 +19,12 @@ instructies:
 3 de game zelf is te starten via game.infopirates.nl
 -----------------------------------
 4 pas de connect.inc.php aan op je eigen db/mysql gegevens
+=======
+
+* 1 maak db aan 'infopirates'
+* 2 import de sql file die te vinden is onder 'database' in deze repo.
+* 3 de game zelf is te starten via game.infopirates.nl
+* 4 pas de connect.inc.php aan op je eigen db/mysql gegevens
+>>>>>>> upstream/master
 
 

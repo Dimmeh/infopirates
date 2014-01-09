@@ -174,9 +174,23 @@ function isAlphanumeric(){
 	}
 }
 // same height/width for puzzle pieces
+<<<<<<< HEAD
 var cw = $('.piece').width();
 
 $('.piece').css(('height',cw+'%'));
+=======
+
+$(window).ready(updateHeight);
+$(window).resize(updateHeight);
+
+function updateHeight()
+{
+    var div = $('.piece');
+    var width = div.width();
+    
+    div.css('height', width);
+}
+>>>>>>> upstream/master
 
 
 
